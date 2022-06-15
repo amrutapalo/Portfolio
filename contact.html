@@ -5,26 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
     <title>Contact</title>
 </head>
 
 <body>
     <main>
-        <p>
-            CONTACT ME
-            I’m interested in web development opportunities – especially ambitious or large projects.
-            If you have requests or questions, don’t hesitate to use the form.
-        </p>
-        <div>
-            <form>
-                <ul>
-                    <li><input type="text" placeholder="Name"></li>
-                    <li><input type="email" placeholder="Email"></li>
-                    <li><input type="text" placeholder="Subject"> </li>
-                    <li><input type="text" placeholder="Message"> </li>
-                    <li><input type="submit" value="Send Message!"></li>
-                </ul>
-            </form>
+        <div class="grid-container">
+            <span class="contact-header">Contact Me</span>
+            <p class="contact-me-text">
+                I’m interested in web development opportunities – especially ambitious or large projects.
+                If you have requests or questions, don’t hesitate to use the form.
+            </p>
+            <div class="contact-me-form">
+                <form>
+                    <ul>
+                        <li><input type="text" id="input-text-name" placeholder="Name"></li>
+                        <li><input type="email" id="input-text-email" placeholder="Email"></li>
+                        <li><input type="text" id="input-text-subject" placeholder="Subject"> </li>
+                        <li><textarea id="input-text-message" placeholder="Message"></textarea></li>
+                        <li><input type="submit" id="submit-button" value="Send Message!"></li>
+                    </ul>
+                </form>
+            </div>
         </div>
 
 
