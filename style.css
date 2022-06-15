@@ -180,11 +180,10 @@
     width: 100%;
     bottom: 0;
     background-color: #fafafa;
-    color: rgb(73, 73, 73);
+    color: rgb(178, 177, 177);
     text-align: center;
-}
+    text-transform: uppercase;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 0.5em;
 
-.footer-nav li {
-    list-style: none;
-    display: inline;
 }
