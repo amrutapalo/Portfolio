@@ -1,0 +1,77 @@
+:root {
+    --orange-colour: rgb(500, 136, 0, 0.8);
+    --font-size: 16px;
+    --gray-colour: #263238;
+    --background-colour: #eceff1;
+    --clr-travel: #ef257a;
+    --clr-technology: #651fff;
+    --clr-personal: #e85808;
+}
+
+body {
+    font-family: Montserrat, Arial, sans-serif;
+    color: var(--gray-colour);
+    background-color: var(--background-colour);
+    font-size: 1em;
+    color: var(--gray-colour);
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #eceff1;
+    width: 15em;
+    height: 20em;
+    padding: 2em;
+    box-shadow: 0px 2px 20px #888888;
+    margin: 1em;
+    position: relative;
+    border-radius: 0.5em;
+    transition: 0.3 all ease-out;
+
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.025);
+}
+
+.banner-image{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-title{
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.blog-description{
+    font-size: 0.7em;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+    color: #6e6e6e;
+}
+
+.card-date{
+    font-size: 0.7em;
+    position: absolute;
+    right: 3em;
+    bottom: 1em;
+    opacity: 0.5;
+}
+
+.category-tag{
+    font-size: 0.7em;
+    background-color: var(--clr-travel);
+    color: white;
+    padding: 0.3em 1.5em 0.3em 1em;
+    position: absolute;
+    top: 4em;
+    font-weight: bold;
+    border-radius: 0 1em 1em 0;
+}
