@@ -1,0 +1,63 @@
+:root {
+    --orange-colour: rgb(500, 136, 0, 0.8);
+    --font-size: 16px;
+    --gray-colour: #263238;
+    --background-colour: #eceff1;
+    --clr-travel: #ef257a;
+    --clr-technology: #651fff;
+    --clr-personal: #e85808;
+}
+
+body {
+    font-family: Montserrat, Arial, sans-serif;
+    color: var(--gray-colour);
+    background-color: var(--background-colour);
+    font-size: 1em;
+    color: var(--gray-colour);
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100;
+    line-height: 1.5em;
+    height: auto;
+    
+    margin: auto;
+    background-color: white;
+    position: relative;
+    padding: 2em;
+
+}
+.heading{
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(110, 109, 109);
+    margin-top: 0.4em;
+    font-size: 1.5em;
+}
+img{
+    height: 300px;
+}
+
+.author-date{
+    font-size: 0.8em;
+    opacity: 0.5;
+}
+
+.content-body-text{
+    margin: 1em;
+    margin-left: 0;
+}
+
+.content-body:before{
+    content: "\2014";
+}
+.content-body{
+    margin-top: 1em;
+}
+
+#content-1{
+margin-top: 1em;
+}
