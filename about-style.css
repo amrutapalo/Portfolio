@@ -1,0 +1,173 @@
+:root {
+    --orange-colour: rgb(500, 136, 0, 0.8);
+    --font-size: 1vw;
+    --gray-colour: #263238;
+    --background-colour: #eceff1;
+    --clr-travel: #ef257a;
+    --clr-technology: #651fff;
+    --clr-personal: #e85808;
+}
+
+body {
+    font-family: Montserrat, Arial, sans-serif;
+    color: var(--gray-colour);
+    background-color: var(--background-colour);
+    font-size: 1em;
+    color: var(--gray-colour);
+}
+
+/* nav - bar */
+
+nav {
+    background-color: var(--orange-colour);
+    box-shadow: 5px 10px 8px #888888;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 4em;
+    height: 5em;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding-right: 3em;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size: 1em;
+    text-transform: uppercase;
+}
+nav ul li a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul li:first-child{
+    margin-right: auto;
+    margin-left: 5em;
+}
+
+nav ul li img{
+    height: 150px;
+    width: auto;
+    top: 1em;
+    position: fixed;
+}
+
+/* nav - bar end */
+
+
+main{
+    display: flex;
+    /* /* justify-content: center; */
+    justify-content: space-evenly;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* margin: 16% 10%; */
+    overflow: hidden;
+    position: relative;
+    border-radius: 1%;
+    box-shadow: 0px 2px 20px #888888;
+    margin-top: 25vh;
+    position: relative;
+    padding: 2em;
+}
+
+.about-section{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-size-adjust: 80%;
+}
+
+.about-header{
+    text-align: center;
+    
+}
+
+.about-text{
+    text-align: right;
+    color: gray;
+
+}
+
+#subject-one{
+    color: var(--orange-colour);
+    font-size: 5em;
+    letter-spacing: 6px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+#subject-two{
+    font-family: 'Dancing Script', cursive;
+    text-align: left;
+    font-size: 3em;
+    transform: translateY(-70%);
+    margin: 0;
+}
+
+.about-avatar{
+    border-radius: 50%;
+    height: 16em;
+    width: auto;
+}
+
+footer{
+    font-size: 0.5em;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    color: #888888;
+}
+
+@media only screen and (max-width: 810px) {
+    .wrapper{
+        transform: scale(0.9, 0.8);
+    }
+
+    :root{
+        --font-size: 0.1vw;
+    }
+    .about-text{
+        text-align: left;
+        font-size: 1em;
+    }
+
+    nav ul li img{
+        height: 80px;
+        width: auto;
+        
+    }
+
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+

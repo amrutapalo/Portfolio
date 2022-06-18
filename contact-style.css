@@ -23,6 +23,8 @@ body {
     font-size: 1em;
 }
 
+/* nav - bar */
+
 nav {
     background-color: var(--orange-colour);
     box-shadow: 5px 10px 8px #888888;
